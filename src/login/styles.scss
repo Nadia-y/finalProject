@@ -1,0 +1,148 @@
+$primaryColor: #777;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-image: url(../img/94735-istock-863607936.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.header__title {
+  font-size: 38px;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  letter-spacing: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 380px;
+  background-color: rgba(112, 83, 55, 0.7);
+
+  padding: 50px;
+}
+.form a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: black;
+}
+.form a:hover {
+  color: white;
+}
+.form__help a {
+  color: black;
+  font-size: 16px;
+}
+.form__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  height: 44px;
+  margin-top: 30px;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__input:invalid {
+  border: 2px solid rgba(216, 29, 29, 0.795);
+}
+.tab-form {
+  margin-top: 30px;
+}
+label.tab {
+  color: black;
+  cursor: pointer;
+  font-weight: 900;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 20%;
+  /* background-color: white; */
+}
+label.tab-register {
+  color: black;
+  cursor: pointer;
+  font-weight: 900;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 20%;
+}
+.active {
+  background-color: rgba(216, 29, 29, 0.795);
+  text-decoration: underline;
+}
+
+.form__button {
+  margin-top: 20px;
+  width: 100%;
+  height: 44px;
+  border-radius: 3px;
+  border: 0;
+  transition: all 300ms ease;
+  box-shadow: 0px 4px 10px 2px rgba(black, 0.2);
+  background-color: rgba(216, 29, 29, 0.795);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: block;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.form__button:focus {
+  border: 3px solid white;
+}
+/* .tab{
+  background-color: white;
+} */
+
+.form__button:hover {
+  color: white;
+}
+
+.tab-form-sign {
+  margin-top: 30px;
+  display: block;
+}
+.tab-form-register {
+  margin-top: 30px;
+  display: none;
+}
+
+.recover {
+  margin-top: 20px;
+}
+.link__chbox {
+  color: white;
+}
+
+.password__wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.fas {
+  position: absolute;
+  top: 44px;
+  right: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
